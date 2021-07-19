@@ -1,1 +1,0 @@
-https://AMS2302.github.io/rsschool-cv/cv
