@@ -15,5 +15,5 @@ function validPass(password){
   else {
     return 'INVALID'
   }
-}
+};
 ```
