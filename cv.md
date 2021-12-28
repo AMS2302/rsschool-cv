@@ -55,3 +55,9 @@ _no experience_
 ### Education and courses
 * RS Schools Course [JS / FRONT-END. STAGE 0](https://rs.school/js-stage0/)
 
+***
+### Languages
+* __Russian__ - native
+* __Belarusian__
+* __Ukrainian__
+* __English__ - B1 (Intermediate English)
