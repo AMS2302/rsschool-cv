@@ -46,3 +46,12 @@ function add(num1, num2) {
   return +sumArr.join('');
 }
 ```
+
+***
+### Experience
+_no experience_
+
+***
+### Education and courses
+* RS Schools Course [JS / FRONT-END. STAGE 0](https://rs.school/js-stage0/)
+
