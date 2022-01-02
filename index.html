@@ -36,7 +36,7 @@
   </header>
   <main class="main">
     <div class="container main-container">
-      <div class="first-box">
+      <div class="main-box first-box">
         <section class="section profile" id="profile">
           <img class="profile-photo" src="./assets/img/photo.jpg" alt="my-photo">
           <div class="section-title">
@@ -67,14 +67,74 @@
           </ul>
         </section>
       </div>
-      <div class="second-box">
-        <section class="section" id="summary"></section>
-        <section class="section" id="skills"></section>
-        <section class="section" id="code"></section>
-        <section class="section" id="experience"></section>
-        <section class="section" id="projects"></section>
-        <section class="section" id="education"></section>
-        <section class="section" id="languages"></section>
+      <div class="main-box second-box">
+        <section class="section" id="summary">
+          <h3 class="section-title title-box">Summary</h3>
+          <p>
+            I like to learn JavaScript
+          </p>
+        </section>
+        <section class="section" id="skills">
+          <h3 class="section-title title-box">Skills</h3>
+          <ul class="section-list">
+            <li class="section-item">HTML</li>
+            <li class="section-item">CSS</li>
+            <li class="section-item">JavaScript</li>
+            <li class="section-item">Git, GitHub</li>
+            <li class="section-item">VS Code</li>
+            <li class="section-item">Figma</li>
+          </ul>
+        </section>
+        <section class="section" id="code">
+          <h3 class="section-title title-box">Code example</h3>
+          <p>
+            16 + 18 = 214 (KATA from CODEWARS): In simple terms, our method does not like the principle of carrying over
+            numbers and just writes down every number it calculates :-) You may assume both integers are positive
+            integers.
+          </p>
+          <pre class="pre">
+            <code>
+function add(num1, num2) {
+
+  function makeArray(num) {
+    return String(num).split('');
+  }
+
+  let arr1 = makeArray(num1);
+  let arr2 = makeArray(num2);
+  let maxLength = Math.max(arr1.length, arr2.length);
+  let sumArr = [];
+
+  for (let i = maxLength - 1; i >= 0; i--) {
+
+    function findValue(arr, i) {
+      let index = arr.length - (i + 1);
+      return +((index >= 0) ? arr[index] : 0);
+    }
+
+    let value1 = findValue(arr1, i);
+    let value2 = findValue(arr2, i);
+    sumArr.push(value1 + value2);
+  }
+
+  return +sumArr.join('');
+}
+          </code>
+        </pre>
+        </section>
+        <section class="section" id="experience">
+          <h3 class="section-title title-box">Experience</h3>
+          <p>no experience</p>
+        </section>
+        <section class="section" id="projects">
+          <h3 class="section-title title-box">Projects</h3>
+        </section>
+        <section class="section" id="education">
+          <h3 class="section-title title-box">Education and courses</h3>
+        </section>
+        <section class="section" id="languages">
+          <h3 class="section-title title-box">Languages</h3>
+        </section>
       </div>
     </div>
   </main>
