@@ -301,6 +301,10 @@ body {
     margin-bottom: 10px;
   }
 
+  .title-box {
+    padding: 5px 10px;
+  }
+
   .profile {
     gap: 20px;
   }
@@ -375,6 +379,10 @@ body {
     --font-title: 12px;
   }
 
+  .nav-line {
+    height: 1px;
+  }
+
   .burger {
     gap: 2px;
     width: 20px;
@@ -387,6 +395,10 @@ body {
   .profile-title {
     font-size: 16px;
     letter-spacing: 2px;
+  }
+
+  .profile {
+   border-bottom-width: 1px;
   }
 
 }
